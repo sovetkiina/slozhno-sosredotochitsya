@@ -4,13 +4,18 @@
 */
 
 :root {
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
+    --accent-color: #FF0070;
+  --text-color: #000028;
   --bg-color: #000028;
-  --main-font: 'IBM Plex mono';
+  --shadow-color:  #FF0070;
+  --border-focus: rgba(255, 0, 112, 0.4);
+  --main-color: #FF0070;
+  --border-color:#FF0070;
+  --focus-color: #FF0070;
+  --focus-underline-color: #FF0070;
+  --color-text-title: #DB00FF;
+  --accent-bg-color:#FF0070;
+  --bg-image: url("/images/cover-image-dark.png");
+  --color-tex-section: #F1B2CE;
 }
 
-.page { 
-  
-  
-}
