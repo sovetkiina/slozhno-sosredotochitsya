@@ -3,54 +3,45 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-  /* :root {
-  --accent-color: #FF8DCB;
-  --text-color: #353430;
-  --bg-color: #FFF1F7;
-  --main-font: 'IBM Plex mono';
-}
- */
-
-  /* сохраните этот селектор в приведённом виде.
+ /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  .page.theme_light {
- 
-  --text-color: #353430;
+.page.theme_light {
+  --main-text-color:#353430;
+  --accent-color-main: #FF8DCB;
+  --second-text-color: #353430;
+  --color-button: #353430;
+  --border-color-btn-hover: rgba(50, 49, 45, 0.4);
+  --underline-color-btn-focus: #353430;
   --bg-color: #FFF1F7;
+  --bg-image: url("/images/cover-image-light.png");
   --color-text-title: #FFC2E6;
   --shadow-color: #FF0070;
-  --border-focus: rgba(50, 49, 45, 0.4);
-  --main-color: #353430;
-  --border-color: #353430;
-  --focus-color: #353430;
-  --focus-border-color: #353430;
-  --bg-image: url("/images/cover-image-light.png");
-  --focus-underline-color:#353430;
-  --accent-bg-color:#FF8DCB;
-  --color-tex-section:#353430;
-  --accent-color:#FF8DCB;
+  --decor-color: #353430;
 }
 
+.theme_light .decorative__element {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
-   
-    --text-color: #353430;
+    --main-text-color:#353430;
+    --accent-color-main: #FF8DCB;
+    --second-text-color: #353430;
+    --color-button: #353430;
+    --border-color-btn-hover: rgba(50, 49, 45, 0.4);
+    --underline-color-btn-focus: #353430;
     --bg-color: #FFF1F7;
+    --bg-image: url("/images/cover-image-light.png");
     --color-text-title: #FFC2E6;
     --shadow-color: #FF0070;
-    --border-focus: rgba(50, 49, 45, 0.4);
-    --main-color: #353430;
-    --border-color: #353430;
-    --focus-color: #353430;
-    --focus-border-color: #353430;
-    --bg-image: url("/images/cover-image-light.png");
-    --focus-underline-color:#353430;
-    --accent-bg-color:#FF8DCB;
-    --color-tex-section:#353430;
-    --accent-color:#FF8DCB;
-    }
+    --decor-color: #353430;
+  }
+
+  .theme_light .decorative__element,
+  .theme_auto .decorative__element {
+    display: none;
+  }
 }

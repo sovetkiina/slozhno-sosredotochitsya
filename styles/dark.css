@@ -15,38 +15,35 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  .page.theme_dark {
-  --accent-color: #FF0070;
-  --text-color: #000028;
-  --bg-color: #000028;
-  --shadow-color:  #FF0070;
-  --border-focus: rgba(255, 0, 112, 0.4);
-  --main-color: #FF0070;
-  --border-color:#FF0070;
-  --focus-color: #FF0070;
-  --focus-underline-color: #FF0070;
-  --color-text-title: #DB00FF;
-  --accent-bg-color:#FF0070;
-  --bg-image: url("/images/cover-image-dark.png");
-  --color-tex-section: #F1B2CE;
-}
+/* */
 
-
+ .page.theme_dark {
+    --main-text-color: #F1B2CE;
+    --accent-color-main: #FF0070;
+    --second-text-color: #000028;
+    --color-button: #FF0070;
+    --border-color-btn-hover: rgba(255, 0, 112, 0.4);
+    --underline-color-btn-focus: #FF0070;
+    --bg-color: #000028;
+    --bg-image: url("/images/cover-image-dark.png");
+    --color-text-title: #DB00FF;
+    --shadow-color:  #FF0070;
+    --decor-color:#FF0070;
+  }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-      --accent-color: #FF0070;
-      --text-color: #000028;
-      --bg-color: #000028;
-      --shadow-color: #FF0070;
-      --border-focus: rgba(255, 0, 112, 0.4);
-      --main-color: #FF0070;
-      --border-color:#FF0070;
-      --focus-color: #FF0070;
-      --focus-underline-color: #FF0070;
-      --color-text-title: #DB00FF;
-      --accent-bg-color:#FF0070;
-      --bg-image: url("/images/cover-image-dark.png");
-      --color-tex-section: #F1B2CE;
-      }
+  :root {
+    --main-text-color: #F1B2CE;
+    --accent-color-main: #FF0070;
+    --second-text-color: #000028;
+    --color-button: #FF0070;
+    --border-color-btn-hover: rgba(255, 0, 112, 0.4);
+    --underline-color-btn-focus: #FF0070;
+    --bg-color: #000028;
+    --bg-image: url("/images/cover-image-dark.png");
+    --color-text-title: #DB00FF;
+    --shadow-color:  #FF0070;
+    --decor-color:#FF0070;
+  }
 }
+  
