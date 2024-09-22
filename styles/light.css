@@ -6,7 +6,7 @@
   --border-color-btn-hover: rgba(50, 49, 45, 0.4);
   --underline-color-btn-focus: #353430;
   --bg-color: #fff1f7;
-  --bg-image: url("/images/cover-image-light.png");
+  --bg-image: url("../images/cover-image-light.png");
   --color-text-title: #ffc2e6;
   --shadow-color: #ff0070;
   --decor-color: #353430;
@@ -25,7 +25,7 @@
     --border-color-btn-hover: rgba(50, 49, 45, 0.4);
     --underline-color-btn-focus: #353430;
     --bg-color: #fff1f7;
-    --bg-image: url("/images/cover-image-light.png");
+    --bg-image: url("../images/cover-image-light.png");
     --color-text-title: #ffc2e6;
     --shadow-color: #ff0070;
     --decor-color: #353430;

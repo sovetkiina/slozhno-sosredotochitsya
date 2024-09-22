@@ -6,7 +6,7 @@
   --border-color-btn-hover: rgba(255, 0, 112, 0.4);
   --underline-color-btn-focus: #ff0070;
   --bg-color: #000028;
-  --bg-image: url("/images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --color-text-title: #db00ff;
   --shadow-color: #ff0070;
   --decor-color: #ff0070;
@@ -21,7 +21,7 @@
     --border-color-btn-hover: rgba(255, 0, 112, 0.4);
     --underline-color-btn-focus: #ff0070;
     --bg-color: #000028;
-    --bg-image: url("/images/cover-image-dark.png");
+    --bg-image: url("../images/cover-image-dark.png");
     --color-text-title: #db00ff;
     --shadow-color: #ff0070;
     --decor-color: #ff0070;
