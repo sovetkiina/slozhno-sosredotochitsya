@@ -1,23 +1,14 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
- /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
 .page.theme_light {
-  --main-text-color:#353430;
-  --accent-color-main: #FF8DCB;
+  --main-text-color: #353430;
+  --accent-color-main: #ff8dcb;
   --second-text-color: #353430;
   --color-button: #353430;
   --border-color-btn-hover: rgba(50, 49, 45, 0.4);
   --underline-color-btn-focus: #353430;
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --bg-image: url("/images/cover-image-light.png");
-  --color-text-title: #FFC2E6;
-  --shadow-color: #FF0070;
+  --color-text-title: #ffc2e6;
+  --shadow-color: #ff0070;
   --decor-color: #353430;
 }
 
@@ -27,16 +18,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-text-color:#353430;
-    --accent-color-main: #FF8DCB;
+    --main-text-color: #353430;
+    --accent-color-main: #ff8dcb;
     --second-text-color: #353430;
     --color-button: #353430;
     --border-color-btn-hover: rgba(50, 49, 45, 0.4);
     --underline-color-btn-focus: #353430;
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --bg-image: url("/images/cover-image-light.png");
-    --color-text-title: #FFC2E6;
-    --shadow-color: #FF0070;
+    --color-text-title: #ffc2e6;
+    --shadow-color: #ff0070;
     --decor-color: #353430;
   }
 

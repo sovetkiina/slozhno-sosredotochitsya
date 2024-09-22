@@ -1,21 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
-    --accent-color: #FF0070;
+  --accent-color: #ff0070;
   --text-color: #000028;
   --bg-color: #000028;
-  --shadow-color:  #FF0070;
+  --shadow-color: #ff0070;
   --border-focus: rgba(255, 0, 112, 0.4);
-  --main-color: #FF0070;
-  --border-color:#FF0070;
-  --focus-color: #FF0070;
-  --focus-underline-color: #FF0070;
-  --color-text-title: #DB00FF;
-  --accent-bg-color:#FF0070;
+  --main-color: #ff0070;
+  --border-color: #ff0070;
+  --focus-color: #ff0070;
+  --focus-underline-color: #ff0070;
+  --color-text-title: #db00ff;
+  --accent-bg-color: #ff0070;
   --bg-image: url("/images/cover-image-dark.png");
-  --color-tex-section: #F1B2CE;
+  --color-tex-section: #f1b2ce;
 }
-
