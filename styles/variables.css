@@ -1,15 +1,13 @@
 :root {
-  --accent-color: #ff0070;
-  --text-color: #000028;
+  --main-text-color: #f1b2ce;
+  --accent-color-main: #ff0070;
+  --second-text-color: #000028;
+  --color-button: #ff0070;
+  --border-color-btn-hover: rgba(255, 0, 112, 0.4);
+  --underline-color-btn-focus: #ff0070;
   --bg-color: #000028;
-  --shadow-color: #ff0070;
-  --border-focus: rgba(255, 0, 112, 0.4);
-  --main-color: #ff0070;
-  --border-color: #ff0070;
-  --focus-color: #ff0070;
-  --focus-underline-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
   --color-text-title: #db00ff;
-  --accent-bg-color: #ff0070;
-  --bg-image: url("/images/cover-image-dark.png");
-  --color-tex-section: #f1b2ce;
+  --shadow-color: #ff0070;
+  --decor-color: #ff0070;
 }
