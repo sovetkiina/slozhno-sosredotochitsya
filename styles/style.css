@@ -133,7 +133,6 @@
 .main {
   display: grid;
   gap: clamp(50px, 1.3359rem + 7.6336vw, 80px);
-  background-color: var(--bg-color);
   padding-block: clamp(40px, 1.3073rem + 5.0891vw, 60px);
   padding-inline: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
