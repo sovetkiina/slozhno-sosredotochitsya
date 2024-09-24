@@ -1,6 +1,7 @@
 :root {
   --main-text-color: #f1b2ce;
   --accent-color-main: #ff0070;
+  --content-title-text-color: #ff0070;
   --second-text-color: #000028;
   --color-button: #ff0070;
   --border-color-btn-hover: rgba(255, 0, 112, 0.4);
@@ -10,4 +11,5 @@
   --color-text-title: #db00ff;
   --shadow-color: #ff0070;
   --decor-color: #ff0070;
+  --decor-element-visibility: visible;
 }
